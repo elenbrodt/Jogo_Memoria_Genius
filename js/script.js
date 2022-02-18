@@ -15,7 +15,7 @@ c2.onclick = () => click(1);
 c3.onclick = () => click(2);
 c4.onclick = () => click(3);
 
-
+play.onclick = () => playGame();
 
 let shuffleOrder = () => {
 
@@ -47,7 +47,6 @@ let checkOrder = () => {
       gameOver(); 
       break;
     }
-    
   }
    if(clickedOrder.length == order.length){
     points.innerHTML = score;
@@ -92,7 +91,6 @@ let gameOver = () => {
 }
 
 let playGame = () => {  
-  order = [];
   clickedOrder = [];
   nextLevel ();
 }
@@ -128,10 +126,7 @@ let soundColorPlay = (color) => {
   }
 }
 
-play.addEventListener ('click', playGame);
 let soundErrorPlay = () => {
   let audio = new Audio('./audios/error.wav');
   audio.play();
 }
-
-//playGame();

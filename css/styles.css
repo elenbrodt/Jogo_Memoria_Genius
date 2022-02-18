@@ -7,7 +7,7 @@ body {
   margin: 0px;
   background-color: #fff5eb;
 }
-
+/************************************************/
 .wrapper-title{
   display: flex;
   justify-content: center;
@@ -21,7 +21,7 @@ body {
   font-style: bold;
   margin: 30px;
 }
-/****************************************/
+/*****************************************************/
 .main{
   height: 100%;
   width: 100%;
@@ -29,12 +29,14 @@ body {
   justify-content: center;
   padding: 10px;
 }
+
 .wrapper{
   border-radius: 20px;
   border: 3px solid #f3c6a5;
   display: flex;
   width: 80%;
 }
+
 .wrapper-genius{
   height: 100%;
   width: 100%;
@@ -47,22 +49,21 @@ body {
 }
 
 .play_btn button{
-  
   border-radius: 10px;
   font-size: 2rem;
   text-transform: uppercase;
-  background-color: #b38585;
-  color: #ffefef;
+  background-color: #f1cece;
+  color: #b38585;
   cursor: pointer;
   padding: 10px;
   border: none;
+  margin: 5px;
 }
 
 button:hover{
-  background-color: #ffefef;
-  color: #b38585;
+  background-color: #b38585;
+  color: #f1cece;;
   transition: .3s ease all;
-
 }
 
 .genius{
@@ -75,7 +76,7 @@ button:hover{
   border-radius: 100%;
   width: 500px;
   height: 500px;
-  margin: 10px;
+  margin: 5px;
 }
 
 .c-1{
@@ -110,6 +111,7 @@ button:hover{
   opacity: 0.4;
 }
 
+/**********************************************/
 .wrapper-score-rules{
   display: flex;
   flex-direction: column;
@@ -118,14 +120,16 @@ button:hover{
   height: 100%;
   width: 100%;
 }
+
 .wrapper-score{
   padding:10px;
   display: flex;
   justify-content: center;
   text-align: center;
 }
+
 .score {
-  border: 5px solid #b38585;
+  border: 5px solid #f1cece;
   padding: 15px 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.5rem;
@@ -144,20 +148,6 @@ button:hover{
   margin-left: 10px;
 }
 
-.game-rules{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 450px;
-  text-align: center;
-  word-spacing: 1.1px;  
-
-}
-
-.game-rules ul{
-  text-align: left;
-  line-height: 25px;  
-
-}
-
 .wrapper-rules{
   padding:10px;
   display: flex;
@@ -166,7 +156,19 @@ button:hover{
   color: #b38585;
 }
 
-/**footer**/
+.game-rules{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 450px;
+  text-align: center;
+  word-spacing: 1.1px;  
+}
+
+.game-rules ul{
+  text-align: left;
+  line-height: 25px;  
+}
+
+/***********************************************footer**/
 
 footer{
   display: flex;
